@@ -10,4 +10,5 @@ include_directories(${SDL2_INCLUDE_DIR})
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
 add_subdirectory(src)
+add_subdirectory(examples/fstest)
 add_subdirectory(examples/tinytest)
